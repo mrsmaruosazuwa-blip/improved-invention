@@ -1,0 +1,37 @@
+{
+  "name": "primary",
+  "version": "1.0.0",
+  "description": "We bring the important thingd to the world",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint app --ext .ts,.tsx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrsmaruosazuwa-blip/improved-invention.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrsmaruosazuwa-blip/improved-invention/issues"
+  },
+  "homepage": "https://github.com/mrsmaruosazuwa-blip/improved-invention#readme",
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1",
+    "next": "^16.3.8",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.7",
+    "@types/node": "26.6.4",
+    "@types/react": "19.3.0",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "^16.3.8",
+    "typescript": "^5.9.3"
+  }
+}
